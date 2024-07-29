@@ -1,0 +1,142 @@
+<!--
+    * Copyright (c) 2024 Aaryan Karlapalem
+    *
+    * Permission is hereby granted, free of charge, to any person obtaining a copy
+    * of this software and associated documentation files (the "Software"), to deal
+    * in the Software without restriction, including without limitation the rights
+    * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    * copies of the Software, and to permit persons to whom the Software is
+    * furnished to do so, subject to the following conditions:
+    *
+    * The above copyright notice and this permission notice shall be included in all
+    * copies or substantial portions of the Software.
+    *
+    * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    * SOFTWARE. -->
+<resources>
+
+    <string name="app_name">VectorScout</string>
+
+    <string name="ic_user_avatar_content_desc">Profile image</string>
+    <string name="ic_settings_content_desc">Settings icon</string>
+    <string name="ic_play_button_content_desc">Play button</string>
+    <string name="ic_result_content_desc">Clipboard icon</string>
+    <string name="ic_chart_combo_content_desc">Chart icon</string>
+    <string name="ic_user_blank_content_desc">User icon</string>
+    <string name="ic_checkmark_outline_content_desc">Checkmark</string>
+    <string name="ic_arrow_back_content_desc">Back button</string>
+    <string name="ic_edit_pen_content_desc">Edit icon</string>
+    <string name="ic_calendar_panel_content_desc">Calendar icon</string>
+    <string name="ic_add_circle_content_desc">Add value</string>
+    <string name="ic_subtract_circle_content_desc">Subtract value</string>
+    <string name="ic_arrow_forward_content_desc">Forward arrow</string>
+    <string name="ic_save_icon_content_desc">Save item</string>
+    <string name="ic_plus_item_content_desc">Plus icon</string>
+    <string name="ic_drag_indicator_content_desc">Draggable content</string>
+    <string name="ic_text_format_center_content_desc">Center text</string>
+    <string name="ic_trash_can_content_desc">Trash can</string>
+    <string name="ic_document_export_content_desc">Export document</string>
+    <string name="ic_view_eye_content_desc">View item</string>
+    <string name="ic_save_file_content_desc">Save file</string>
+    <string name="ic_data_unstructured_content_desc">Data diagram</string>
+    <string name="ic_machine_learning_content_desc">Robot</string>
+    <string name="ic_rotate_180_content_desc">Revert</string>
+    <string name="ic_close_outline_content_desc">Deny</string>
+    <string name="ic_help_content_desc">Question mark</string>
+
+    <string name="permission_request_denial_toast_text">This permission is required for the app to function properly. Please open app info settings and grant the permission!</string>
+
+    <string name="home_page_default_device_name">Device name</string>
+    <string name="home_page_subtitle_text">For FRC team Vector 8177</string>
+    <string name="home_page_button_start_text">Scout a match</string>
+    <string name="home_page_button_competition_start_format">Scout match #%1$s</string>
+    <string name="home_page_button_view_data">View scout data</string>
+    <string name="home_page_button_pit_text">Scout a pit</string>
+    <string name="home_page_button_competition_mode">Competition mode</string>
+    <string name="home_page_device_edit_dialog_title">Scout name</string>
+    <string name="home_page_device_edit_dialog_hint">Enter device name</string>
+    <string name="home_page_device_edit_dialog_save_button">Done</string>
+
+    <string name="start_scouting_dialog_competition_complete_title">Scouting complete</string>
+    <string name="start_scouting_dialog_competition_complete_subtitle">All the matches for this competition have been scouted and exported. Check the scouting trends tab to view the competition data, or start a new competition to scout more matches!</string>
+    <string name="start_scouting_dialog_competition_complete_button_text">Got it!</string>
+
+    <string name="start_scouting_dialog_select_pit_title">Select team to pit scout</string>
+
+    <string name="start_match_header_title">Start a match</string>
+    <string name="start_quarterfinal_header_title">Scout quarterfinal match</string>
+    <string name="start_semifinal_header_title">Start semifinal match</string>
+    <string name="start_final_header_title">Scout final match</string>
+    <string name="start_match_match_number_text">Match number</string>
+    <string name="start_match_team_number_text">Team number</string>
+    <string name="start_match_alliance_selection_text">Alliance</string>
+    <string name="start_match_alliance_label_red">RED</string>
+    <string name="start_match_alliance_label_blue">BLUE</string>
+    <string name="start_match_begin_button_text">Start</string>
+    <string name="start_match_fill_out_fields_toast_text">You must fill in all fields before continuing!</string>
+
+    <string name="start_pit_scouting_header_title">Start pit scouting</string>
+    <string name="start_pit_scouting_team_number_prefix">Team number</string>
+    <string name="start_pit_scouting_team_name_prefix">Team name</string>
+    <string name="start_pit_scouting_begin_button_text">Begin scouting</string>
+    <string name="start_pit_scouting_select_team_button_text">Select team</string>
+
+    <string name="in_pit_scouting_header_text">Pit scouting</string>
+    <string name="in_pit_scouting_primary_subtitle_text">Monitoring team %1$s</string>
+    <string name="in_pit_scouting_end_button_text">Finish scouting</string>
+    <string name="in_match_scouting_end_button_text_short">DONE</string>
+
+    <string name="in_match_header_match_number_format">Match #%1$s</string>
+    <string name="in_match_header_team_number_format">Monitoring team %1$s</string>
+    <string name="in_match_header_match_type_quarterfinal">Quarterfinal</string>
+    <string name="in_match_header_match_type_semifinal">Semifinal</string>
+    <string name="in_match_header_match_type_final">Final</string>
+    <string name="in_match_header_alliance_red">Red alliance</string>
+    <string name="in_match_header_alliance_blue">Blue alliance</string>
+    <string name="in_match_stage_endgame_label">ENDGAME</string>
+    <string name="in_match_stage_finish_scout_text">Finish match</string>
+    <string name="in_match_clear_data_button_label">Clear data</string>
+
+    <string name="finish_match_header_title">Finalize data</string>
+    <string name="finish_match_name_select">Select your name</string>
+    <string name="finish_match_name_confirmation_hint">Scout name</string>
+    <string name="finish_match_done_button_text">Save data</string>
+    <string name="finish_match_scout_name_blank_toast_text">You must select a name!</string>
+
+    <string name="settings_header_title">App configurations</string>
+    <string name="settings_choose_default_template_title">Current match template</string>
+    <string name="settings_choose_default_template_pit_title">Current pit template</string>
+    <string name="settings_choose_default_output_location_title">Match output file name</string>
+    <string name="settings_choose_default_pit_output_location_title">Pit output file name</string>
+    <string name="settings_choose_default_output_location_dialog_input_hint">File name</string>
+    <string name="settings_choose_default_output_location_dialog_title">Default output file name</string>
+    <string name="settings_choose_match_type_title">Match type</string>
+    <string name="settings_choose_match_type_dialog_input_title">Match type</string>
+    <string name="settings_choose_match_type_dialog_title">Match type</string>
+    <string name="settings_tablet_configuration_title">Device position</string>
+    <string name="settings_enable_competition_mode">Enable competition mode</string>
+    <string name="settings_competition_mode_enabled">Enabled</string>
+    <string name="settings_competition_mode_disabled">Disabled</string>
+    <string name="settings_enter_competition_name">Competition name</string>
+    <string name="settings_qualification_math_count">Number of qualification matches</string>
+    <string name="settings_commit_hash_title">Commit hash</string>
+
+    <string name="settings_disable_competition_mode_title">Disable competition mode?</string>
+    <string name="settings_disable_competition_mode_subtitle">Disabling competition mode won\'t remove all the competition data, but if you make a new competition, all unsaved data will be lost. If you already exported your data, then you are fine. Would you like to proceed?</string>
+    <string name="settings_disable_competition_mode_button_text">Disable competition mode</string>
+
+    <string name="scouting_data_header_title">Scouting Data</string>
+    <string name="scouting_data_select_competition_title">Select a competition to view</string>
+    <string name="scouting_data_no_competitions_title">No competitions to view</string>
+    <string name="scouting_data_no_competitions_subtitle">You need to scout a competition to be able to view its data. To scout a competition, enable competition mode in settings!</string>
+    <string name="scouting_data_auto_header">Auto</string>
+    <string name="scouting_data_tele_header">Tele-op</string>
+    <string name="scouting_data_endgame_header">Endgame</string>
+    <string name="scouting_data_pit_header">Pit</string>
+
+</resources>
